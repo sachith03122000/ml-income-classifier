@@ -260,7 +260,7 @@ else:
                 'F1 Score': '{:.4f}',
                 'MCC': '{:.4f}'
             }).background_gradient(cmap='RdYlGn', subset=['Accuracy', 'AUC', 'F1 Score']),
-            use_container_width=True
+            width='stretch'
         )
 
         st.info("👆 Upload a CSV file to make predictions and see detailed metrics for the selected model.")
