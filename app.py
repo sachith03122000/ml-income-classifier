@@ -149,6 +149,10 @@ if uploaded_file is not None:
             categorical_cols = metadata['categorical_columns']
             numerical_cols = metadata['numerical_columns']
 
+            # Convert numerical columns to numeric types
+            for col in numerical_cols:
+                X_test[col] = pd.to_numeric(X_test[col], errors='coerce')
+
             # Handle missing values
             X_test[numerical_cols] = X_test[numerical_cols].fillna(X_test[numerical_cols].median())
             X_test[categorical_cols] = X_test[categorical_cols].fillna('Unknown')
