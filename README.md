@@ -366,4 +366,4 @@ This project is open-source and available under the MIT License.
 
 ---
 
-**Built with ❤️ for ML Education | Streamlit + Scikit-learn + XGBoost**
+**Streamlit + Scikit-learn + XGBoost**
