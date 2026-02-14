@@ -356,7 +356,7 @@ This project is open-source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-**Sachith** (GitHub: [@sachith03122000](https://github.com/sachith03122000))
+**Sachidanandda C** (GitHub: [@sachith03122000](https://github.com/sachith03122000))
 
 ## 🙏 Acknowledgments
 
